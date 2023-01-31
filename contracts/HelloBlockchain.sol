@@ -9,6 +9,7 @@ contract HelloBlockchain {
 
     string public RequestMessage;
     string public ResponseMessage;
+    
 
     constructor(string memory message) {
         Requestor = msg.sender;
